@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+test-results/
+playwright-report/
+validation/screenshots/
+validation/reload-test-artifacts/
+*.tsbuildinfo
+*.log
