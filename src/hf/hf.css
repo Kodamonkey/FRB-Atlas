@@ -1,0 +1,23 @@
+.hf-finale-panel .finale-heading h2 { font-size: 20px; }
+.hf-threshold { display: flex; align-items: center; gap: 12px; flex: none; font-family: var(--finale-font); font-size: 10px; color: #f0d568; }
+.hf-threshold span { flex: none; min-width: 96px; }
+.hf-threshold b { font-weight: 500; }
+.hf-threshold input { flex: 1; width: 0; min-width: 0; height: 22px; accent-color: #f0d568; }
+.hf-threshold input:focus-visible { outline: 2px solid #f0d568; outline-offset: 2px; }
+@media (max-width: 760px) {
+  .hf-finale-panel { gap: 6px; }
+  .hf-finale-panel .finale-heading h2 { font-size: 17px; }
+  .hf-threshold { gap: 7px; font-size: 9px; }
+  .hf-threshold span { min-width: 82px; }
+}
+@media (max-height: 650px) and (max-width: 760px) {
+  .hf-finale-panel { gap: 3px; }
+  .hf-finale-panel .finale-heading h2 { font-size: 15px; }
+  .hf-finale-panel .finale-charts { flex-basis: 240px; min-height: 240px; }
+  .hf-threshold input { height: 18px; }
+}
+@media (max-height: 520px) and (min-width: 761px) {
+  .hf-finale-panel .finale-heading h2 { font-size: 15px; }
+  .hf-threshold { font-size: 8px; }
+  .hf-threshold input { height: 16px; }
+}

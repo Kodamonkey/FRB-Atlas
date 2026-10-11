@@ -1,0 +1,102 @@
+.finale-panel {
+  position: fixed;
+  z-index: 6;
+  left: 50%;
+  width: min(1120px, calc(100% - 8%));
+  transform: translateX(-50%);
+  top: max(100px, 12vh);
+  bottom: 148px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  color: #eaf2ef;
+  pointer-events: auto;
+  background: rgba(10, 15, 18, .94);
+  padding: 14px 18px 10px;
+  box-sizing: border-box;
+  --finale-font: 'IBM Plex Mono', monospace;
+}
+.finale-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex: none; }
+.finale-body { display: flex; flex-direction: column; gap: 10px; flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #4a5c60 transparent; }
+.finale-confirmation { flex: none; margin: 0; padding-top: 7px; border-top: 1px solid rgba(234, 242, 239, .15); font-size: 10px; line-height: 1.4; color: #aebec0; }
+.finale-eyebrow { font-family: var(--finale-font); font-size: 9px; color: #94acae; }
+.finale-heading h2 { margin: 4px 0 0; font-size: 22px; line-height: 1.15; font-weight: 550; letter-spacing: 0; }
+.finale-heading button { display: grid; place-items: center; flex: none; width: 30px; height: 30px; padding: 0; border: 1px solid #4a5c60; border-radius: 4px; background: #152226; color: #eaf2ef; cursor: pointer; }
+.finale-heading button:hover { background: #24363b; }
+.finale-heading button:focus-visible, .finale-chart canvas:focus-visible { outline: 2px solid #f0d568; outline-offset: 3px; }
+.finale-actions { display: flex; align-items: center; gap: 6px; flex: none; }
+.finale-trace { display: block; position: relative; }
+.finale-trace-menu { position: absolute; z-index: 10; right: 0; top: 36px; display: grid; width: 166px; padding: 5px; background: #152226; border: 1px solid #4a5c60; border-radius: 4px; box-shadow: 0 8px 20px rgba(0, 0, 0, .35); }
+.finale-trace .finale-trace-menu button { display: flex; align-items: center; width: 100%; min-height: 34px; height: auto; padding: 7px 9px; border: 0; background: transparent; font-size: 12px; text-align: left; }
+.finale-trace-menu button:hover { background: #24363b; }
+.finale-charts { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: .85fr 1fr; gap: 12px 14px; flex: 1 0 210px; min-height: 210px; }
+.finale-chart { display: flex; flex-direction: column; margin: 0; min-width: 0; min-height: 0; }
+.finale-chart-profile { grid-column: 1 / -1; }
+.finale-chart figcaption { display: flex; justify-content: space-between; align-items: baseline; gap: 5px; font-size: 11px; line-height: 1.4; margin-bottom: 3px; }
+.finale-chart figcaption span { min-width: 0; }
+.finale-chart figcaption b { color: #72e2c7; font-family: var(--finale-font); font-size: 9px; font-weight: 500; }
+.finale-chart figcaption small { color: #a6b9bc; font-family: var(--finale-font); font-size: 8px; white-space: nowrap; }
+.finale-chart canvas { display: block; width: 100%; flex: 1; height: 0; min-height: 34px; touch-action: none; cursor: crosshair; }
+.finale-selection { display: flex; flex-wrap: wrap; gap: 4px 16px; font-family: var(--finale-font); font-size: 10px; color: #f0d568; flex: none; }
+.finale-selection small { font-size: 8px; }
+.finale-marker { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #f0d568; margin-right: 4px; }
+.finale-outcome { display: grid; grid-template-columns: minmax(0, 1fr); gap: 3px; border-top: 1px solid rgba(234, 242, 239, .15); padding-top: 9px; flex: none; }
+.finale-methods { font-family: var(--finale-font); font-size: 9px; color: #72e2c7; }
+.finale-outcome strong { font-size: 13px; line-height: 1.3; font-weight: 500; }
+.finale-outcome p { margin: 0; font-size: 10px; line-height: 1.35; color: #c0cfd0; }
+.finale-panel[data-classification-visible="false"] .finale-outcome strong,
+.finale-panel[data-classification-visible="false"] .finale-outcome p { visibility: hidden; }
+.finale-legend { display: flex; flex-wrap: wrap; gap: 3px 14px; flex: none; font-family: var(--finale-font); font-size: 8px; color: #b8c8c8; }
+.finale-window { display: inline-block; width: 9px; height: 8px; background: rgba(255, 149, 126, .4); border: 1px solid #ff957e; vertical-align: middle; margin-right: 4px; }
+.finale-detector { display: inline-block; width: 11px; border-top: 1px dashed #72e2c7; vertical-align: middle; margin-right: 4px; }
+.finale-provenance { margin: 0; font-family: var(--finale-font); font-size: 8px; line-height: 1.4; color: #94acae; flex: none; }
+.finale-loading { justify-content: center; font-size: 13px; }
+.finale-error h2 { margin: 0; font-size: 18px; line-height: 1.2; }
+.finale-error p { margin: 0; color: #c0cfd0; font-size: 12px; line-height: 1.4; }
+.finale-retry { display: inline-flex; align-items: center; gap: 8px; width: fit-content; max-width: 100%; min-height: 36px; padding: 7px 11px; border: 1px solid #4a5c60; border-radius: 4px; background: #152226; color: #eaf2ef; font-size: 12px; cursor: pointer; }
+.finale-retry:hover { background: #24363b; }
+.finale-retry:focus-visible { outline: 2px solid #f0d568; outline-offset: 3px; }
+@media (max-width: 1000px) and (min-width: 761px) {
+  .finale-panel { gap: 8px; }
+  .finale-chart figcaption { flex-wrap: wrap; gap: 0; }
+}
+@media (max-width: 760px) {
+  .finale-panel { width: calc(100% - 28px); top: 100px; bottom: 154px; padding: 8px 0 0; gap: 7px; background: rgba(10, 15, 18, .98); }
+  .finale-body { gap: 7px; }
+  .finale-confirmation { font-size: 9px; padding-top: 5px; }
+  .finale-heading h2 { font-size: 18px; }
+  .finale-eyebrow { font-size: 8px; }
+  .finale-charts { grid-template-columns: minmax(0, 1fr); grid-template-rows: .85fr 1fr 1fr; gap: 7px; flex-basis: 255px; min-height: 255px; }
+  .finale-chart-profile { grid-column: auto; }
+  .finale-chart figcaption { font-size: 10px; margin-bottom: 1px; }
+  .finale-chart figcaption small { font-size: 8px; }
+  .finale-selection { font-size: 9px; gap: 2px 9px; }
+  .finale-outcome { padding-top: 6px; gap: 2px; }
+  .finale-outcome strong { font-size: 11px; }
+  .finale-outcome p { font-size: 9px; line-height: 1.3; }
+  .finale-methods { font-size: 8px; }
+  .finale-provenance, .finale-legend { font-size: 7px; }
+}
+@media (max-height: 650px) and (max-width: 760px) {
+  .finale-panel { gap: 4px; top: 100px; bottom: 154px; }
+  .finale-body { gap: 4px; }
+  .finale-confirmation { font-size: 8px; padding-top: 4px; }
+  .finale-heading h2 { font-size: 16px; margin-top: 2px; }
+  .finale-heading button { width: 25px; height: 25px; }
+  .finale-charts { gap: 4px; flex-basis: 240px; min-height: 240px; }
+  .finale-outcome p { display: none; }
+  .finale-outcome { padding-top: 4px; }
+}
+@media (max-height: 520px) and (min-width: 761px) {
+  .finale-panel { top: 68px; bottom: 110px; gap: 4px; padding-top: 4px; }
+  .finale-body { gap: 4px; }
+  .finale-confirmation { font-size: 8px; padding-top: 3px; }
+  .finale-heading h2 { font-size: 16px; }
+  .finale-eyebrow, .finale-provenance, .finale-outcome p { display: none; }
+  .finale-charts { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: minmax(0, 1fr); flex-basis: 100px; min-height: 100px; gap: 8px; }
+  .finale-chart-profile { grid-column: auto; }
+  .finale-chart figcaption { font-size: 9px; flex-wrap: wrap; }
+  .finale-outcome { padding-top: 3px; }
+  .finale-outcome strong { font-size: 10px; }
+}
