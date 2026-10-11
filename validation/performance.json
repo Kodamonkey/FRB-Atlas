@@ -1,0 +1,1981 @@
+{
+  "measuredAt": "2026-10-11T15:32:50.420Z",
+  "url": "http://127.0.0.1:5175/?qa=1&observation=alma-hf",
+  "environment": "Windows, Chromium headless, gzip local production, no network throttling",
+  "reports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "readyMs": 1326.9000000003725,
+      "evidenceStatus": "idle",
+      "route": {
+        "observation": "arecibo-lf",
+        "detection": "cnn",
+        "classification": "resnet",
+        "recorded": true
+      },
+      "sceneCount": 27,
+      "controls": {
+        "position": {
+          "min": 0,
+          "max": 26.999999,
+          "step": "any"
+        },
+        "holdSpeedPhasesPerSecond": 0.12,
+        "buttonNames": [
+          "Retroceder con precisión",
+          "Avanzar con precisión"
+        ]
+      },
+      "resources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        }
+      ],
+      "canvasPixels": 1440000,
+      "initialBytes": 605648,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "rgb",
+        "backbone",
+        "upsampling",
+        "cabezas",
+        "centernet",
+        "recorte",
+        "resnet",
+        "decision",
+        "candidato"
+      ],
+      "elapsedMs": 35005,
+      "preciseControl": {
+        "before": 0,
+        "after": 0.012667,
+        "deltaPhases": 0.012667,
+        "roundTripBrowserControlMs": 333.54199999999946,
+        "note": "Includes Playwright focus, input and browser synchronization; not device input latency."
+      },
+      "pausedDrawFramesIn600Ms": 0,
+      "finalResources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        },
+        {
+          "path": "/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+          "bytes": 5468,
+          "decodedBytes": 5468
+        },
+        {
+          "path": "/media/earth-blue-marble.png",
+          "bytes": 444710,
+          "decodedBytes": 444710
+        },
+        {
+          "path": "/assets/load-CfpAIU9_.js",
+          "bytes": 3516,
+          "decodedBytes": 7900
+        },
+        {
+          "path": "/evidence/event.json",
+          "bytes": 30753,
+          "decodedBytes": 69691
+        },
+        {
+          "path": "/evidence/waterfall.f32",
+          "bytes": 456643,
+          "decodedBytes": 524288
+        },
+        {
+          "path": "/evidence/dm-map.f32",
+          "bytes": 637335,
+          "decodedBytes": 786432
+        },
+        {
+          "path": "/evidence/original-crop.f32",
+          "bytes": 114307,
+          "decodedBytes": 131072
+        },
+        {
+          "path": "/evidence/prepared-crop.f32",
+          "bytes": 109600,
+          "decodedBytes": 131072
+        },
+        {
+          "path": "/evidence/profile.f32",
+          "bytes": 1949,
+          "decodedBytes": 2048
+        },
+        {
+          "path": "/evidence/rgb.u8",
+          "bytes": 300048,
+          "decodedBytes": 786432
+        },
+        {
+          "path": "/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+          "bytes": 5208,
+          "decodedBytes": 5208
+        },
+        {
+          "path": "/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+          "bytes": 6908,
+          "decodedBytes": 6908
+        }
+      ],
+      "finalBytes": 2722093,
+      "rAF": {
+        "medianMs": 33.30000000000018,
+        "p95Ms": 49.899999999999636,
+        "note": "Browser rendering opportunities, not measured physical GPU throughput."
+      },
+      "sceneFrames": [
+        {
+          "sequence": 2,
+          "sceneId": "anfitriona",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 5,
+          "sceneId": "galaxia",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 6,
+          "sceneId": "polarizacion",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.799999999999272
+        },
+        {
+          "sequence": 7,
+          "sceneId": "tierra",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 8,
+          "sceneId": "antenas",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.799999999999272
+        },
+        {
+          "sequence": 12,
+          "sceneId": "matriz",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 16,
+          "sceneId": "bowtie",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.799999999999272
+        },
+        {
+          "sequence": 17,
+          "sceneId": "metodos",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.700000000000728,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 26,
+          "sceneId": "candidato",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999709,
+          "p95Ms": 16.700000000000728
+        }
+      ],
+      "heapMainThreadBytes": {
+        "initialAfterGC": 9134108,
+        "afterEachTourAfterGC": [
+          13821832,
+          14019256,
+          14203600
+        ],
+        "afterThreeToursAfterGC": 14185312,
+        "note": "JSHeapUsedSize; may exclude ArrayBuffer backing stores. Excludes Workers, GPU and browser process memory."
+      },
+      "resourceCountsAfterTours": [
+        {
+          "geometries": 313,
+          "textures": 150,
+          "drawCalls": 20
+        },
+        {
+          "geometries": 313,
+          "textures": 150,
+          "drawCalls": 20
+        },
+        {
+          "geometries": 313,
+          "textures": 150,
+          "drawCalls": 20
+        }
+      ],
+      "errors": [],
+      "longTasks": [
+        {
+          "start": 201.60000000149012,
+          "duration": 141
+        },
+        {
+          "start": 425.6000000014901,
+          "duration": 206
+        },
+        {
+          "start": 632,
+          "duration": 295
+        },
+        {
+          "start": 5612,
+          "duration": 51
+        },
+        {
+          "start": 5902.700000001118,
+          "duration": 175
+        },
+        {
+          "start": 7041.60000000149,
+          "duration": 159
+        },
+        {
+          "start": 7579.700000001118,
+          "duration": 51
+        },
+        {
+          "start": 9002.10000000149,
+          "duration": 405
+        },
+        {
+          "start": 9447,
+          "duration": 85
+        },
+        {
+          "start": 9544.400000000373,
+          "duration": 89
+        },
+        {
+          "start": 10234.900000000373,
+          "duration": 115
+        },
+        {
+          "start": 10396.200000001118,
+          "duration": 94
+        },
+        {
+          "start": 10511.900000000373,
+          "duration": 96
+        },
+        {
+          "start": 10886.300000000745,
+          "duration": 135
+        },
+        {
+          "start": 11842.400000000373,
+          "duration": 91
+        },
+        {
+          "start": 12252.300000000745,
+          "duration": 58
+        },
+        {
+          "start": 12534.5,
+          "duration": 284
+        },
+        {
+          "start": 12837.900000000373,
+          "duration": 57
+        },
+        {
+          "start": 12895.300000000745,
+          "duration": 59
+        },
+        {
+          "start": 13535.900000000373,
+          "duration": 139
+        },
+        {
+          "start": 13900.900000000373,
+          "duration": 184
+        },
+        {
+          "start": 14106.200000001118,
+          "duration": 58
+        },
+        {
+          "start": 14165.300000000745,
+          "duration": 57
+        },
+        {
+          "start": 14350.800000000745,
+          "duration": 191
+        },
+        {
+          "start": 14751.5,
+          "duration": 168
+        },
+        {
+          "start": 14934.800000000745,
+          "duration": 65
+        },
+        {
+          "start": 15700.700000001118,
+          "duration": 68
+        },
+        {
+          "start": 16501.10000000149,
+          "duration": 208
+        },
+        {
+          "start": 16934.200000001118,
+          "duration": 62
+        },
+        {
+          "start": 17951,
+          "duration": 139
+        },
+        {
+          "start": 18317.900000000373,
+          "duration": 83
+        },
+        {
+          "start": 18884.400000000373,
+          "duration": 62
+        },
+        {
+          "start": 21601.10000000149,
+          "duration": 78
+        },
+        {
+          "start": 21692.700000001118,
+          "duration": 81
+        },
+        {
+          "start": 21774.400000000373,
+          "duration": 77
+        },
+        {
+          "start": 21950.400000000373,
+          "duration": 77
+        },
+        {
+          "start": 22048,
+          "duration": 83
+        },
+        {
+          "start": 22144.400000000373,
+          "duration": 78
+        },
+        {
+          "start": 23018,
+          "duration": 52
+        },
+        {
+          "start": 23442.60000000149,
+          "duration": 50
+        },
+        {
+          "start": 23502.10000000149,
+          "duration": 50
+        },
+        {
+          "start": 23883.900000000373,
+          "duration": 61
+        },
+        {
+          "start": 23956.5,
+          "duration": 63
+        },
+        {
+          "start": 25567.200000001118,
+          "duration": 52
+        },
+        {
+          "start": 25636.900000000373,
+          "duration": 53
+        },
+        {
+          "start": 25934.300000000745,
+          "duration": 51
+        },
+        {
+          "start": 28601.400000000373,
+          "duration": 80
+        },
+        {
+          "start": 28698.200000001118,
+          "duration": 89
+        },
+        {
+          "start": 28788.300000000745,
+          "duration": 83
+        },
+        {
+          "start": 28951.800000000745,
+          "duration": 79
+        },
+        {
+          "start": 29049.400000000373,
+          "duration": 90
+        },
+        {
+          "start": 29154.800000000745,
+          "duration": 86
+        },
+        {
+          "start": 30084.10000000149,
+          "duration": 65
+        },
+        {
+          "start": 30165.5,
+          "duration": 64
+        },
+        {
+          "start": 30239.700000001118,
+          "duration": 65
+        },
+        {
+          "start": 30684.5,
+          "duration": 64
+        },
+        {
+          "start": 30761.800000000745,
+          "duration": 63
+        },
+        {
+          "start": 30836.10000000149,
+          "duration": 65
+        },
+        {
+          "start": 31317.10000000149,
+          "duration": 77
+        },
+        {
+          "start": 31413,
+          "duration": 78
+        }
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "readyMs": 770.5,
+      "evidenceStatus": "idle",
+      "route": {
+        "observation": "arecibo-lf",
+        "detection": "cnn",
+        "classification": "resnet",
+        "recorded": true
+      },
+      "sceneCount": 27,
+      "controls": {
+        "position": {
+          "min": 0,
+          "max": 26.999999,
+          "step": "any"
+        },
+        "holdSpeedPhasesPerSecond": 0.12,
+        "buttonNames": [
+          "Retroceder con precisión",
+          "Avanzar con precisión"
+        ]
+      },
+      "resources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        }
+      ],
+      "canvasPixels": 329160,
+      "initialBytes": 605648,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "rgb",
+        "backbone",
+        "upsampling",
+        "cabezas",
+        "centernet",
+        "recorte",
+        "resnet",
+        "decision",
+        "candidato"
+      ],
+      "elapsedMs": 27621.799999998882,
+      "preciseControl": {
+        "before": 0,
+        "after": 0.012638,
+        "deltaPhases": 0.012638,
+        "roundTripBrowserControlMs": 80.01610000000073,
+        "note": "Includes Playwright focus, input and browser synchronization; not device input latency."
+      },
+      "pausedDrawFramesIn600Ms": 0,
+      "finalResources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        },
+        {
+          "path": "/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+          "bytes": 5468,
+          "decodedBytes": 5468
+        },
+        {
+          "path": "/media/earth-blue-marble.png",
+          "bytes": 444710,
+          "decodedBytes": 444710
+        },
+        {
+          "path": "/assets/load-CfpAIU9_.js",
+          "bytes": 3516,
+          "decodedBytes": 7900
+        },
+        {
+          "path": "/evidence/event.json",
+          "bytes": 30753,
+          "decodedBytes": 69691
+        },
+        {
+          "path": "/evidence/waterfall.f32",
+          "bytes": 456643,
+          "decodedBytes": 524288
+        },
+        {
+          "path": "/evidence/dm-map.f32",
+          "bytes": 637335,
+          "decodedBytes": 786432
+        },
+        {
+          "path": "/evidence/original-crop.f32",
+          "bytes": 114307,
+          "decodedBytes": 131072
+        },
+        {
+          "path": "/evidence/prepared-crop.f32",
+          "bytes": 109600,
+          "decodedBytes": 131072
+        },
+        {
+          "path": "/evidence/profile.f32",
+          "bytes": 1949,
+          "decodedBytes": 2048
+        },
+        {
+          "path": "/evidence/rgb.u8",
+          "bytes": 300048,
+          "decodedBytes": 786432
+        },
+        {
+          "path": "/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+          "bytes": 5208,
+          "decodedBytes": 5208
+        },
+        {
+          "path": "/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+          "bytes": 6908,
+          "decodedBytes": 6908
+        }
+      ],
+      "finalBytes": 2722093,
+      "rAF": {
+        "medianMs": 16.699999999999932,
+        "p95Ms": 16.700000000000273,
+        "note": "Browser rendering opportunities, not measured physical GPU throughput."
+      },
+      "sceneFrames": [
+        {
+          "sequence": 2,
+          "sceneId": "anfitriona",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000273
+        },
+        {
+          "sequence": 5,
+          "sceneId": "galaxia",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 6,
+          "sceneId": "polarizacion",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 7,
+          "sceneId": "tierra",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.699999999999818
+        },
+        {
+          "sequence": 8,
+          "sceneId": "antenas",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.800000000000182
+        },
+        {
+          "sequence": 12,
+          "sceneId": "matriz",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 16,
+          "sceneId": "bowtie",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 17,
+          "sceneId": "metodos",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 26,
+          "sceneId": "candidato",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        }
+      ],
+      "heapMainThreadBytes": {
+        "initialAfterGC": 9076880,
+        "afterEachTourAfterGC": [
+          13773436,
+          13977592,
+          14166848
+        ],
+        "afterThreeToursAfterGC": 14144588,
+        "note": "JSHeapUsedSize; may exclude ArrayBuffer backing stores. Excludes Workers, GPU and browser process memory."
+      },
+      "resourceCountsAfterTours": [
+        {
+          "geometries": 308,
+          "textures": 150,
+          "drawCalls": 20
+        },
+        {
+          "geometries": 310,
+          "textures": 150,
+          "drawCalls": 20
+        },
+        {
+          "geometries": 310,
+          "textures": 150,
+          "drawCalls": 20
+        }
+      ],
+      "errors": [],
+      "longTasks": [
+        {
+          "start": 67,
+          "duration": 103
+        },
+        {
+          "start": 212.7999999988824,
+          "duration": 198
+        },
+        {
+          "start": 411.19999999925494,
+          "duration": 215
+        },
+        {
+          "start": 2840.199999999255,
+          "duration": 115
+        },
+        {
+          "start": 3740.199999999255,
+          "duration": 104
+        },
+        {
+          "start": 5423.5999999996275,
+          "duration": 297
+        },
+        {
+          "start": 6474.699999999255,
+          "duration": 65
+        },
+        {
+          "start": 8124.299999998882,
+          "duration": 220
+        },
+        {
+          "start": 9090.599999999627,
+          "duration": 115
+        },
+        {
+          "start": 9408.099999999627,
+          "duration": 162
+        },
+        {
+          "start": 9791.400000000373,
+          "duration": 179
+        },
+        {
+          "start": 10173.599999999627,
+          "duration": 143
+        },
+        {
+          "start": 11058,
+          "duration": 53
+        },
+        {
+          "start": 11823.199999999255,
+          "duration": 204
+        },
+        {
+          "start": 13106.799999998882,
+          "duration": 112
+        },
+        {
+          "start": 13456.400000000373,
+          "duration": 66
+        }
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "readyMs": 893,
+      "evidenceStatus": "idle",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio",
+        "recorded": false
+      },
+      "sceneCount": 18,
+      "controls": {
+        "position": {
+          "min": 0,
+          "max": 17.999999,
+          "step": "any"
+        },
+        "holdSpeedPhasesPerSecond": 0.12,
+        "buttonNames": [
+          "Retroceder con precisión",
+          "Avanzar con precisión"
+        ]
+      },
+      "resources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        }
+      ],
+      "canvasPixels": 1440000,
+      "initialBytes": 605648,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "galaxia",
+        "vuelo",
+        "plasma",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "fase",
+        "suma",
+        "receptor",
+        "fft",
+        "potencia",
+        "hf-resolution",
+        "hf-matriz",
+        "hf-profile",
+        "hf-boxcar",
+        "hf-candidato"
+      ],
+      "elapsedMs": 24561.799999998882,
+      "preciseControl": {
+        "before": 0,
+        "after": 0.012667,
+        "deltaPhases": 0.012667,
+        "roundTripBrowserControlMs": 351.9293999999936,
+        "note": "Includes Playwright focus, input and browser synchronization; not device input latency."
+      },
+      "pausedDrawFramesIn600Ms": 0,
+      "finalResources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        },
+        {
+          "path": "/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+          "bytes": 5468,
+          "decodedBytes": 5468
+        },
+        {
+          "path": "/media/earth-blue-marble.png",
+          "bytes": 444710,
+          "decodedBytes": 444710
+        },
+        {
+          "path": "/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+          "bytes": 6908,
+          "decodedBytes": 6908
+        },
+        {
+          "path": "/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+          "bytes": 5208,
+          "decodedBytes": 5208
+        },
+        {
+          "path": "/assets/HFFinalePanel-Bj_ljUrr.js",
+          "bytes": 3865,
+          "decodedBytes": 10063
+        },
+        {
+          "path": "/assets/HFFinalePanel-DObUEh7B.css",
+          "bytes": 369,
+          "decodedBytes": 962
+        }
+      ],
+      "finalBytes": 1072176,
+      "rAF": {
+        "medianMs": 33.30000000000018,
+        "p95Ms": 50,
+        "note": "Browser rendering opportunities, not measured physical GPU throughput."
+      },
+      "sceneFrames": [
+        {
+          "sequence": 2,
+          "sceneId": "galaxia",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.799999999999272
+        },
+        {
+          "sequence": 5,
+          "sceneId": "polarizacion",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 6,
+          "sceneId": "tierra",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.80000000000109
+        },
+        {
+          "sequence": 7,
+          "sceneId": "antenas",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 13,
+          "sceneId": "hf-resolution",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 14,
+          "sceneId": "hf-matriz",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 15,
+          "sceneId": "hf-profile",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 16,
+          "sceneId": "hf-boxcar",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 17,
+          "sceneId": "hf-candidato",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        }
+      ],
+      "heapMainThreadBytes": {
+        "initialAfterGC": 8318392,
+        "afterEachTourAfterGC": [
+          11031236,
+          11249380,
+          11425220
+        ],
+        "afterThreeToursAfterGC": 11402068,
+        "note": "JSHeapUsedSize; may exclude ArrayBuffer backing stores. Excludes Workers, GPU and browser process memory."
+      },
+      "resourceCountsAfterTours": [
+        {
+          "geometries": 159,
+          "textures": 47,
+          "drawCalls": 12
+        },
+        {
+          "geometries": 159,
+          "textures": 47,
+          "drawCalls": 12
+        },
+        {
+          "geometries": 159,
+          "textures": 47,
+          "drawCalls": 12
+        }
+      ],
+      "errors": [],
+      "longTasks": [
+        {
+          "start": 70.29999999888241,
+          "duration": 111
+        },
+        {
+          "start": 221,
+          "duration": 156
+        },
+        {
+          "start": 382,
+          "duration": 231
+        },
+        {
+          "start": 5413.199999999255,
+          "duration": 126
+        },
+        {
+          "start": 6491.9000000003725,
+          "duration": 160
+        },
+        {
+          "start": 7684.4000000003725,
+          "duration": 349
+        },
+        {
+          "start": 8054.0999999996275,
+          "duration": 99
+        },
+        {
+          "start": 8168,
+          "duration": 100
+        },
+        {
+          "start": 8851.5,
+          "duration": 154
+        },
+        {
+          "start": 9023,
+          "duration": 105
+        },
+        {
+          "start": 9140.199999999255,
+          "duration": 99
+        },
+        {
+          "start": 10601.5,
+          "duration": 51
+        },
+        {
+          "start": 10834.5,
+          "duration": 72
+        },
+        {
+          "start": 11617.299999998882,
+          "duration": 64
+        },
+        {
+          "start": 11697.5,
+          "duration": 54
+        },
+        {
+          "start": 13885.199999999255,
+          "duration": 53
+        },
+        {
+          "start": 15779.5,
+          "duration": 52
+        },
+        {
+          "start": 15843.699999999255,
+          "duration": 53
+        },
+        {
+          "start": 15897.799999998882,
+          "duration": 53
+        },
+        {
+          "start": 15958.099999999627,
+          "duration": 60
+        },
+        {
+          "start": 16018.5,
+          "duration": 53
+        },
+        {
+          "start": 16073.699999999255,
+          "duration": 50
+        },
+        {
+          "start": 16333.900000000373,
+          "duration": 101
+        },
+        {
+          "start": 16452.900000000373,
+          "duration": 100
+        },
+        {
+          "start": 16568.299999998882,
+          "duration": 101
+        },
+        {
+          "start": 16734,
+          "duration": 102
+        },
+        {
+          "start": 16854.199999999255,
+          "duration": 108
+        },
+        {
+          "start": 16962.400000000373,
+          "duration": 111
+        },
+        {
+          "start": 20800.799999998882,
+          "duration": 92
+        },
+        {
+          "start": 20911.5,
+          "duration": 97
+        },
+        {
+          "start": 21008.900000000373,
+          "duration": 95
+        },
+        {
+          "start": 21118.299999998882,
+          "duration": 95
+        },
+        {
+          "start": 21226.400000000373,
+          "duration": 96
+        }
+      ],
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "readyMs": 736.1999999992549,
+      "evidenceStatus": "idle",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio",
+        "recorded": false
+      },
+      "sceneCount": 18,
+      "controls": {
+        "position": {
+          "min": 0,
+          "max": 17.999999,
+          "step": "any"
+        },
+        "holdSpeedPhasesPerSecond": 0.12,
+        "buttonNames": [
+          "Retroceder con precisión",
+          "Avanzar con precisión"
+        ]
+      },
+      "resources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        }
+      ],
+      "canvasPixels": 329160,
+      "initialBytes": 605648,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "galaxia",
+        "vuelo",
+        "plasma",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "fase",
+        "suma",
+        "receptor",
+        "fft",
+        "potencia",
+        "hf-resolution",
+        "hf-matriz",
+        "hf-profile",
+        "hf-boxcar",
+        "hf-candidato"
+      ],
+      "elapsedMs": 19780.699999999255,
+      "preciseControl": {
+        "before": 0,
+        "after": 0.012638,
+        "deltaPhases": 0.012638,
+        "roundTripBrowserControlMs": 100.5112999999983,
+        "note": "Includes Playwright focus, input and browser synchronization; not device input latency."
+      },
+      "pausedDrawFramesIn600Ms": 0,
+      "finalResources": [
+        {
+          "path": "/assets/index-CEYNr6ab.js",
+          "bytes": 141181,
+          "decodedBytes": 415908
+        },
+        {
+          "path": "/assets/motion-xgxdCp6f.js",
+          "bytes": 27529,
+          "decodedBytes": 70040
+        },
+        {
+          "path": "/assets/three-9p10Hh1q.js",
+          "bytes": 135138,
+          "decodedBytes": 528616
+        },
+        {
+          "path": "/assets/math-BvXWHf-j.js",
+          "bytes": 77839,
+          "decodedBytes": 261591
+        },
+        {
+          "path": "/assets/index-Dn3k5BQ7.css",
+          "bytes": 15254,
+          "decodedBytes": 62128
+        },
+        {
+          "path": "/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2",
+          "bytes": 14708,
+          "decodedBytes": 14708
+        },
+        {
+          "path": "/assets/inter-latin-500-normal-Cerq10X2.woff2",
+          "bytes": 24272,
+          "decodedBytes": 24272
+        },
+        {
+          "path": "/assets/inter-latin-400-normal-C38fXH4l.woff2",
+          "bytes": 23664,
+          "decodedBytes": 23664
+        },
+        {
+          "path": "/assets/KaTeX_Main-Regular-B22Nviop.woff2",
+          "bytes": 26272,
+          "decodedBytes": 26272
+        },
+        {
+          "path": "/assets/KaTeX_Math-Italic-t53AETM-.woff2",
+          "bytes": 16440,
+          "decodedBytes": 16440
+        },
+        {
+          "path": "/assets/KaTeX_Main-Bold-Cx986IdX.woff2",
+          "bytes": 25324,
+          "decodedBytes": 25324
+        },
+        {
+          "path": "/assets/inter-latin-600-normal-LgqL8muc.woff2",
+          "bytes": 24452,
+          "decodedBytes": 24452
+        },
+        {
+          "path": "/assets/World-pQCeMdcx.js",
+          "bytes": 50768,
+          "decodedBytes": 148875
+        },
+        {
+          "path": "/assets/model-DWasIiwX.js",
+          "bytes": 2807,
+          "decodedBytes": 6022
+        },
+        {
+          "path": "/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2",
+          "bytes": 5468,
+          "decodedBytes": 5468
+        },
+        {
+          "path": "/media/earth-blue-marble.png",
+          "bytes": 444710,
+          "decodedBytes": 444710
+        },
+        {
+          "path": "/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2",
+          "bytes": 6908,
+          "decodedBytes": 6908
+        },
+        {
+          "path": "/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2",
+          "bytes": 5208,
+          "decodedBytes": 5208
+        },
+        {
+          "path": "/assets/HFFinalePanel-Bj_ljUrr.js",
+          "bytes": 3865,
+          "decodedBytes": 10063
+        },
+        {
+          "path": "/assets/HFFinalePanel-DObUEh7B.css",
+          "bytes": 369,
+          "decodedBytes": 962
+        }
+      ],
+      "finalBytes": 1072176,
+      "rAF": {
+        "medianMs": 16.700000000000045,
+        "p95Ms": 16.700000000000273,
+        "note": "Browser rendering opportunities, not measured physical GPU throughput."
+      },
+      "sceneFrames": [
+        {
+          "sequence": 2,
+          "sceneId": "galaxia",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000273
+        },
+        {
+          "sequence": 5,
+          "sceneId": "polarizacion",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 6,
+          "sceneId": "tierra",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.699999999999818
+        },
+        {
+          "sequence": 7,
+          "sceneId": "antenas",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 13,
+          "sceneId": "hf-resolution",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 14,
+          "sceneId": "hf-matriz",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 15,
+          "sceneId": "hf-profile",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 16,
+          "sceneId": "hf-boxcar",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        },
+        {
+          "sequence": 17,
+          "sceneId": "hf-candidato",
+          "renderMode": "on-demand",
+          "drawFramesDuring30Opportunities": 0,
+          "medianMs": 16.69999999999891,
+          "p95Ms": 16.700000000000728
+        }
+      ],
+      "heapMainThreadBytes": {
+        "initialAfterGC": 8312984,
+        "afterEachTourAfterGC": [
+          11011544,
+          11232684,
+          11415904
+        ],
+        "afterThreeToursAfterGC": 11394292,
+        "note": "JSHeapUsedSize; may exclude ArrayBuffer backing stores. Excludes Workers, GPU and browser process memory."
+      },
+      "resourceCountsAfterTours": [
+        {
+          "geometries": 154,
+          "textures": 46,
+          "drawCalls": 12
+        },
+        {
+          "geometries": 157,
+          "textures": 46,
+          "drawCalls": 12
+        },
+        {
+          "geometries": 157,
+          "textures": 46,
+          "drawCalls": 12
+        }
+      ],
+      "errors": [],
+      "longTasks": [
+        {
+          "start": 81.19999999925494,
+          "duration": 122
+        },
+        {
+          "start": 246,
+          "duration": 158
+        },
+        {
+          "start": 408.5,
+          "duration": 191
+        },
+        {
+          "start": 2870.4000000003725,
+          "duration": 142
+        },
+        {
+          "start": 3804.4000000003725,
+          "duration": 119
+        },
+        {
+          "start": 4753.299999998882,
+          "duration": 292
+        },
+        {
+          "start": 5803.699999999255,
+          "duration": 109
+        },
+        {
+          "start": 5930.699999999255,
+          "duration": 55
+        },
+        {
+          "start": 7603.299999998882,
+          "duration": 53
+        }
+      ],
+      "horizontalOverflow": false
+    }
+  ],
+  "assets": [
+    {
+      "name": "HFFinalePanel-Bj_ljUrr.js",
+      "bytes": 10063,
+      "gzipBytes": 3865
+    },
+    {
+      "name": "HFFinalePanel-DObUEh7B.css",
+      "bytes": 962,
+      "gzipBytes": 369
+    },
+    {
+      "name": "index-CEYNr6ab.js",
+      "bytes": 415908,
+      "gzipBytes": 141181
+    },
+    {
+      "name": "index-Dn3k5BQ7.css",
+      "bytes": 62128,
+      "gzipBytes": 15254
+    },
+    {
+      "name": "load-CfpAIU9_.js",
+      "bytes": 7900,
+      "gzipBytes": 3516
+    },
+    {
+      "name": "math-BvXWHf-j.js",
+      "bytes": 261591,
+      "gzipBytes": 77839
+    },
+    {
+      "name": "model-DWasIiwX.js",
+      "bytes": 6022,
+      "gzipBytes": 2807
+    },
+    {
+      "name": "motion-xgxdCp6f.js",
+      "bytes": 70040,
+      "gzipBytes": 27529
+    },
+    {
+      "name": "three-9p10Hh1q.js",
+      "bytes": 528616,
+      "gzipBytes": 135138
+    },
+    {
+      "name": "World-pQCeMdcx.js",
+      "bytes": 148875,
+      "gzipBytes": 50768
+    }
+  ]
+}
