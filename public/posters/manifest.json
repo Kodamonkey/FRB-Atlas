@@ -1,0 +1,1367 @@
+{
+  "exportedAt": "2026-10-11T15:17:22.027Z",
+  "url": "http://127.0.0.1:5174/",
+  "operation": 1,
+  "paused": true,
+  "routes": [
+    {
+      "detection": "cnn",
+      "classification": "resnet",
+      "sceneCount": 27,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "rgb",
+        "backbone",
+        "upsampling",
+        "cabezas",
+        "centernet",
+        "recorte",
+        "resnet",
+        "decision",
+        "candidato"
+      ]
+    },
+    {
+      "detection": "boxcar",
+      "classification": "radio",
+      "sceneCount": 23,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "boxcar",
+        "boxcar-bank",
+        "boxcar-threshold",
+        "radio-checks",
+        "candidate-didactic"
+      ]
+    },
+    {
+      "detection": "boxcar",
+      "classification": "forest",
+      "sceneCount": 24,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "boxcar",
+        "boxcar-bank",
+        "boxcar-threshold",
+        "forest-features",
+        "forest",
+        "candidate-didactic"
+      ]
+    },
+    {
+      "detection": "boxcar",
+      "classification": "resnet",
+      "sceneCount": 23,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "boxcar",
+        "boxcar-bank",
+        "boxcar-threshold",
+        "resnet-didactic",
+        "candidate-didactic"
+      ]
+    },
+    {
+      "detection": "transformer",
+      "classification": "transformer",
+      "sceneCount": 23,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "anfitriona",
+        "vuelo",
+        "plasma",
+        "galaxia",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "receptor",
+        "fft",
+        "potencia",
+        "matriz",
+        "bloques",
+        "alineacion",
+        "perfil",
+        "bowtie",
+        "metodos",
+        "vit-patches",
+        "vit-detection",
+        "vit-proposals",
+        "vit-classification",
+        "candidate-didactic"
+      ]
+    },
+    {
+      "observation": "alma-hf",
+      "detection": "boxcar",
+      "classification": "radio",
+      "sceneCount": 18,
+      "sceneIds": [
+        "faro",
+        "pulso",
+        "galaxia",
+        "vuelo",
+        "plasma",
+        "polarizacion",
+        "tierra",
+        "antenas",
+        "fase",
+        "suma",
+        "receptor",
+        "fft",
+        "potencia",
+        "hf-resolution",
+        "hf-matriz",
+        "hf-profile",
+        "hf-boxcar",
+        "hf-candidato"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "desktop-faro.jpg",
+      "sceneId": "faro",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-pulso.jpg",
+      "sceneId": "pulso",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-anfitriona.jpg",
+      "sceneId": "anfitriona",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-vuelo.jpg",
+      "sceneId": "vuelo",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-plasma.jpg",
+      "sceneId": "plasma",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-galaxia.jpg",
+      "sceneId": "galaxia",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-polarizacion.jpg",
+      "sceneId": "polarizacion",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-arecibo-lf-tierra.jpg",
+      "sceneId": "tierra",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-arecibo-lf-antenas.jpg",
+      "sceneId": "antenas",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-receptor.jpg",
+      "sceneId": "receptor",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-fft.jpg",
+      "sceneId": "fft",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-potencia.jpg",
+      "sceneId": "potencia",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-matriz.jpg",
+      "sceneId": "matriz",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-bloques.jpg",
+      "sceneId": "bloques",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-alineacion.jpg",
+      "sceneId": "alineacion",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-perfil.jpg",
+      "sceneId": "perfil",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-bowtie.jpg",
+      "sceneId": "bowtie",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-metodos.jpg",
+      "sceneId": "metodos",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-rgb.jpg",
+      "sceneId": "rgb",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-backbone.jpg",
+      "sceneId": "backbone",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-upsampling.jpg",
+      "sceneId": "upsampling",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-cabezas.jpg",
+      "sceneId": "cabezas",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-centernet.jpg",
+      "sceneId": "centernet",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-recorte.jpg",
+      "sceneId": "recorte",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-resnet.jpg",
+      "sceneId": "resnet",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-decision.jpg",
+      "sceneId": "decision",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-candidato.jpg",
+      "sceneId": "candidato",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-boxcar.jpg",
+      "sceneId": "boxcar",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-boxcar-bank.jpg",
+      "sceneId": "boxcar-bank",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-boxcar-threshold.jpg",
+      "sceneId": "boxcar-threshold",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-radio-checks.jpg",
+      "sceneId": "radio-checks",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-candidate-didactic.jpg",
+      "sceneId": "candidate-didactic",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-forest-features.jpg",
+      "sceneId": "forest-features",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "forest"
+      }
+    },
+    {
+      "name": "desktop-forest.jpg",
+      "sceneId": "forest",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "forest"
+      }
+    },
+    {
+      "name": "desktop-resnet-didactic.jpg",
+      "sceneId": "resnet-didactic",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "boxcar",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "desktop-vit-patches.jpg",
+      "sceneId": "vit-patches",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "desktop-vit-detection.jpg",
+      "sceneId": "vit-detection",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "desktop-vit-proposals.jpg",
+      "sceneId": "vit-proposals",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "desktop-vit-classification.jpg",
+      "sceneId": "vit-classification",
+      "observation": "arecibo-lf",
+      "viewport": "desktop",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-faro.jpg",
+      "sceneId": "faro",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-pulso.jpg",
+      "sceneId": "pulso",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-galaxia.jpg",
+      "sceneId": "galaxia",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-vuelo.jpg",
+      "sceneId": "vuelo",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-plasma.jpg",
+      "sceneId": "plasma",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-polarizacion.jpg",
+      "sceneId": "polarizacion",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-tierra.jpg",
+      "sceneId": "tierra",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-antenas.jpg",
+      "sceneId": "antenas",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-fase.jpg",
+      "sceneId": "fase",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-suma.jpg",
+      "sceneId": "suma",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-receptor.jpg",
+      "sceneId": "receptor",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-fft.jpg",
+      "sceneId": "fft",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-potencia.jpg",
+      "sceneId": "potencia",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-hf-resolution.jpg",
+      "sceneId": "hf-resolution",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-hf-matriz.jpg",
+      "sceneId": "hf-matriz",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-hf-profile.jpg",
+      "sceneId": "hf-profile",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-hf-boxcar.jpg",
+      "sceneId": "hf-boxcar",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "desktop-alma-hf-hf-candidato.jpg",
+      "sceneId": "hf-candidato",
+      "observation": "alma-hf",
+      "viewport": "desktop",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-faro.jpg",
+      "sceneId": "faro",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-pulso.jpg",
+      "sceneId": "pulso",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-anfitriona.jpg",
+      "sceneId": "anfitriona",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-vuelo.jpg",
+      "sceneId": "vuelo",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-plasma.jpg",
+      "sceneId": "plasma",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-galaxia.jpg",
+      "sceneId": "galaxia",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-polarizacion.jpg",
+      "sceneId": "polarizacion",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-arecibo-lf-tierra.jpg",
+      "sceneId": "tierra",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-arecibo-lf-antenas.jpg",
+      "sceneId": "antenas",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-receptor.jpg",
+      "sceneId": "receptor",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-fft.jpg",
+      "sceneId": "fft",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-potencia.jpg",
+      "sceneId": "potencia",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-matriz.jpg",
+      "sceneId": "matriz",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-bloques.jpg",
+      "sceneId": "bloques",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-alineacion.jpg",
+      "sceneId": "alineacion",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-perfil.jpg",
+      "sceneId": "perfil",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-bowtie.jpg",
+      "sceneId": "bowtie",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-metodos.jpg",
+      "sceneId": "metodos",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-rgb.jpg",
+      "sceneId": "rgb",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-backbone.jpg",
+      "sceneId": "backbone",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-upsampling.jpg",
+      "sceneId": "upsampling",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-cabezas.jpg",
+      "sceneId": "cabezas",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-centernet.jpg",
+      "sceneId": "centernet",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-recorte.jpg",
+      "sceneId": "recorte",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-resnet.jpg",
+      "sceneId": "resnet",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-decision.jpg",
+      "sceneId": "decision",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-candidato.jpg",
+      "sceneId": "candidato",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "cnn",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-boxcar.jpg",
+      "sceneId": "boxcar",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-boxcar-bank.jpg",
+      "sceneId": "boxcar-bank",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-boxcar-threshold.jpg",
+      "sceneId": "boxcar-threshold",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-radio-checks.jpg",
+      "sceneId": "radio-checks",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-candidate-didactic.jpg",
+      "sceneId": "candidate-didactic",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-forest-features.jpg",
+      "sceneId": "forest-features",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "forest"
+      }
+    },
+    {
+      "name": "mobile-forest.jpg",
+      "sceneId": "forest",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "forest"
+      }
+    },
+    {
+      "name": "mobile-resnet-didactic.jpg",
+      "sceneId": "resnet-didactic",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "boxcar",
+        "classification": "resnet"
+      }
+    },
+    {
+      "name": "mobile-vit-patches.jpg",
+      "sceneId": "vit-patches",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "mobile-vit-detection.jpg",
+      "sceneId": "vit-detection",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "mobile-vit-proposals.jpg",
+      "sceneId": "vit-proposals",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "mobile-vit-classification.jpg",
+      "sceneId": "vit-classification",
+      "observation": "arecibo-lf",
+      "viewport": "mobile",
+      "route": {
+        "detection": "transformer",
+        "classification": "transformer"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-faro.jpg",
+      "sceneId": "faro",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-pulso.jpg",
+      "sceneId": "pulso",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-galaxia.jpg",
+      "sceneId": "galaxia",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-vuelo.jpg",
+      "sceneId": "vuelo",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-plasma.jpg",
+      "sceneId": "plasma",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-polarizacion.jpg",
+      "sceneId": "polarizacion",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-tierra.jpg",
+      "sceneId": "tierra",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-antenas.jpg",
+      "sceneId": "antenas",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-fase.jpg",
+      "sceneId": "fase",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-suma.jpg",
+      "sceneId": "suma",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-receptor.jpg",
+      "sceneId": "receptor",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-fft.jpg",
+      "sceneId": "fft",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-potencia.jpg",
+      "sceneId": "potencia",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-hf-resolution.jpg",
+      "sceneId": "hf-resolution",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-hf-matriz.jpg",
+      "sceneId": "hf-matriz",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-hf-profile.jpg",
+      "sceneId": "hf-profile",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-hf-boxcar.jpg",
+      "sceneId": "hf-boxcar",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    },
+    {
+      "name": "mobile-alma-hf-hf-candidato.jpg",
+      "sceneId": "hf-candidato",
+      "observation": "alma-hf",
+      "viewport": "mobile",
+      "route": {
+        "observation": "alma-hf",
+        "detection": "boxcar",
+        "classification": "radio"
+      }
+    }
+  ]
+}
